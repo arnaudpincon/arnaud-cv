@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/arnaud-cv/static/css/main.9c77d993.chunk.css",
+    "main.js": "/arnaud-cv/static/js/main.7b3a4abf.chunk.js",
+    "main.js.map": "/arnaud-cv/static/js/main.7b3a4abf.chunk.js.map",
+    "runtime-main.js": "/arnaud-cv/static/js/runtime-main.4895d9de.js",
+    "runtime-main.js.map": "/arnaud-cv/static/js/runtime-main.4895d9de.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/arnaud-cv/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.d587c8fd.chunk.js": "/arnaud-cv/static/js/2.d587c8fd.chunk.js",
+    "static/js/2.d587c8fd.chunk.js.map": "/arnaud-cv/static/js/2.d587c8fd.chunk.js.map",
+    "index.html": "/arnaud-cv/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/arnaud-cv/static/css/2.b57b7cfd.chunk.css.map",
+    "static/css/main.9c77d993.chunk.css.map": "/arnaud-cv/static/css/main.9c77d993.chunk.css.map",
+    "static/js/2.d587c8fd.chunk.js.LICENSE.txt": "/arnaud-cv/static/js/2.d587c8fd.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/arnaud-cv/static/media/fondEspace.8222174e.png",
+    "static/media/Afpa.9e2066e7.jpg": "/arnaud-cv/static/media/Afpa.9e2066e7.jpg",
+    "static/media/MissionOffisim.d1e0912c.jpg": "/arnaud-cv/static/media/MissionOffisim.d1e0912c.jpg",
+    "static/media/cts.0218a932.png": "/arnaud-cv/static/media/cts.0218a932.png",
+    "static/media/earthBack.6359370e.png": "/arnaud-cv/static/media/earthBack.6359370e.png",
+    "static/media/logoFullWeb.39e81688.png": "/arnaud-cv/static/media/logoFullWeb.39e81688.png",
+    "static/media/logoJS.64dd2c04.png": "/arnaud-cv/static/media/logoJS.64dd2c04.png",
+    "static/media/logoJava.539ad6c5.png": "/arnaud-cv/static/media/logoJava.539ad6c5.png",
+    "static/media/logoPython.4d25b183.png": "/arnaud-cv/static/media/logoPython.4d25b183.png",
+    "static/media/logoReact.cd4ab684.png": "/arnaud-cv/static/media/logoReact.cd4ab684.png",
+    "static/media/moonBack.206b9275.png": "/arnaud-cv/static/media/moonBack.206b9275.png",
+    "static/media/robotSat.b148e9d8.png": "/arnaud-cv/static/media/robotSat.b148e9d8.png",
+    "static/media/s_earth.0a4c1008.png": "/arnaud-cv/static/media/s_earth.0a4c1008.png",
+    "static/media/sun.ae3529a1.png": "/arnaud-cv/static/media/sun.ae3529a1.png",
+    "static/media/venusBack.8392ceb8.png": "/arnaud-cv/static/media/venusBack.8392ceb8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4895d9de.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.d587c8fd.chunk.js",
+    "static/css/main.9c77d993.chunk.css",
+    "static/js/main.7b3a4abf.chunk.js"
+  ]
+}

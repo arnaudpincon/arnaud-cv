@@ -66,12 +66,12 @@ const App = () => {
 
     <AnimatePresence exitBeforeEnter>
       <Switch location={location} key={location.pathname}>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/aboutDetails" component={AboutDetails} />
-        <Route exact path="/contact" component={Contact} />
-        <Redirect to="/" />
+        <Route exact path="/arnaud-cv" component={Home} />
+        <Route exact path="/arnaud-cv/portfolio" component={Portfolio} />
+        <Route exact path="/arnaud-cv/about" component={About} />
+        <Route exact path="/arnaud-cv/aboutDetails" component={AboutDetails} />
+        <Route exact path="/arnaud-cv/contact" component={Contact} />
+        <Redirect to="/arnaud-cv" />
       </Switch>
     </AnimatePresence>
   );

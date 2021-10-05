@@ -1,0 +1,140 @@
+  .slide-container{
+    position: absolute;
+    z-index: 100;
+    left: 20%;
+    top: 12%;
+    width: 60%;
+    padding: 0 30px 10px;
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.637);
+    z-index: 100;
+    color: white;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+  .inside-slide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexTitle{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .titleList{
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .flexTestRow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .flexTestRowBottom{
+    margin-top: 10px;
+  }
+
+  .flexTestColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: auto;
+  }
+
+  .flexTestCornerRight{
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #project1{
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  .each-slide > div {
+    display: flex;
+    //align-items: center;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+  
+  .indicator {
+    width: 30px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    border: 1px blue solid;
+  }
+  .indicator.active {
+    background: #000;
+    color: #fff;
+  }
+
+  .listPortFolio{
+    display: list-item;
+    margin-bottom: 10px;
+
+    li  {
+      list-style: disclosure-closed;
+      text-indent: 2%;
+    }
+  }
+
+  
+
+
+
+  @media only screen and (max-width: 600px) {
+      
+    .each-slide > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 300px;
+      }
+  
+  }
+  

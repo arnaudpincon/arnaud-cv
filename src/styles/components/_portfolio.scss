@@ -1,0 +1,211 @@
+.portfolio {
+
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+    overflow:hidden;
+
+    #lampLOff{
+        position: absolute;
+        width: 120px;
+        height: 300px;
+        bottom: 50px;
+        left: 150px;
+        z-index: 80;
+    }
+
+    #lampLOn{
+        position: absolute;
+        width: 120px;
+        height: 300px;
+        bottom: 50px;
+        left: 150px;
+        z-index: 81;
+        opacity: 1;
+    }
+
+    #lamp1On.off{
+        opacity: 0;
+    }
+
+    #lampROff{
+        position: absolute;
+        width: 120px;
+        height: 300px;
+        bottom: 50px;
+        right: 100px;
+        z-index: 80;
+    }
+
+    #lampROn{
+        position: absolute;
+        width: 120px;
+        height: 300px;
+        bottom: 50px;
+        right: 100px;
+        z-index: 81;
+        opacity: 1;
+    }
+
+    #lampROn.off{
+        opacity: 0;
+    }
+
+    #cloud1{
+        position: absolute;
+        width: 120px;
+        top: 25px;
+        right: 150px;
+        opacity: 1;
+        z-index: 20;
+    }
+
+    #cloud2{
+        position: absolute;
+        width: 100px;
+        top: 65px;
+        right: 200px;
+        opacity: 1;
+        z-index: 21;
+    }
+
+    #cloud3{
+        position: absolute;
+        width: 40px;
+        top: 60px;
+        right: 150px;
+        opacity: 1;
+        z-index: 21;
+    }
+
+    #cloud4{
+        position: absolute;
+        width: 100px;
+        top: 170px;
+        left: 300px;
+        opacity: 1;
+        z-index: 21;
+    }
+
+    #cloud5{
+        position: absolute;
+        width: 100px;
+        top: 150px;
+        left: 250px;
+        opacity: 1;
+        z-index: 20;
+    }
+
+    #banc{
+        position: absolute;
+        width: 150px;
+        bottom: 13%;
+        left: 45%;
+        opacity: 1;
+        z-index: 20;
+    }
+
+    #maisons{
+        position: absolute;
+        width: 200px;
+        bottom: 14%;
+        right: 10%;
+        opacity: 1;
+        z-index: 20;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .slide-container{
+            position: absolute;
+            z-index: 100;
+            left: 10%;
+            top: 30%;
+            width: 80%;
+        }
+
+        #lampLOff{
+            display: none;
+        }
+
+        #lampLOn{
+            display: none;
+        }
+
+        #lamp1On.off{
+            display: none;
+        }
+
+        #lampROff{
+            display: none;
+        }
+
+        #lampROn{
+            display: none;
+        }
+
+        #lampROn.off{
+            display: none;
+        }
+
+        #cloud1{
+            position: absolute;
+            width: 40px;
+            top: 120px;
+            right: 250px;
+            opacity: 1;
+            z-index: 20;
+        }
+    
+        #cloud2{
+            position: absolute;
+            width: 30px;
+            top: 140px;
+            right: 270px;
+            opacity: 1;
+            z-index: 21;
+        }
+    
+        #cloud3{
+            display: none;
+        }
+    
+        #cloud4{
+            position: absolute;
+            width: 40px;
+            top: 120px;
+            left: 300px;
+            opacity: 1;
+            z-index: 21;
+        }
+    
+        #cloud5{
+            position: absolute;
+            width: 40px;
+            top: 110px;
+            left: 250px;
+            opacity: 1;
+            z-index: 20;
+        }
+
+        #maisons{
+            position: absolute;
+            width: 50px;
+            bottom: 15.2%;
+            right: 14%;
+            opacity: 1;
+            z-index: 20;
+        }
+
+        #banc{
+            position: absolute;
+            width: 50px;
+            bottom: 13.5%;
+            left: 42%;
+            opacity: 1;
+            z-index: 20;
+        }
+
+    }
+
+}

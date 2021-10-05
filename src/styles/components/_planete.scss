@@ -1,0 +1,318 @@
+//// Planetes
+
+.planete {
+    min-width: max-content;
+}
+
+
+#sunButton{
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 15px;
+  opacity: 0.4;
+  transition: all .3s ease-in-out;
+}
+
+#sun{
+  position: absolute;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+  z-index: 29;
+}
+
+#vAbout{
+  position: absolute;
+  left: 25%;
+  top: 15%;
+}
+
+#venus{
+  position: absolute;
+  width: 140px;
+  z-index: 30;
+}
+
+#ePortfolio{
+  position: absolute;
+  right: 52%;
+  top: 30%;
+}
+
+#earth{
+  position: absolute;
+  width: 400px;
+  z-index: 31;
+}
+
+#mContact{
+  position: absolute;
+  right: 30%;
+  top: 28%;
+}
+
+#moon{
+  position: absolute;
+  width: 140px;
+  z-index: 32;
+}
+
+// Fond Planete
+
+#earthBackground{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+
+#moonBackground{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#venusBackground{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+
+// title planetes
+
+#titlePortfolio{
+  font-family: "font-jedi";
+  font-size: 2.9rem;
+  margin-left: 2px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  color: rgba(238, 188, 25, 0.938);
+  border-radius: 5px;
+  padding-left: 38px;
+  padding-top: 150px;
+  z-index: 40;
+  text-shadow: 3px 3px #070505;
+  opacity: 0.6;
+  transition: all 0.5s ease;
+}
+
+#titleContact{
+  font-family: "font-jedi";
+  font-size: 1.2rem;
+  margin-left: 2px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  color: rgba(93, 140, 241, 0.938);;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 50px;
+  z-index: 40;
+  text-shadow: 2px 2px #070505;
+  opacity: 0.6;
+  transition: all 0.5s ease;
+}
+
+#titleAbout{
+  font-family: "font-jedi";
+  font-size: 1.5rem;
+  margin-left: 2px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  color: rgba(252, 130, 73, 0.938);
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 45px;
+  z-index: 40;
+  text-shadow: 3px 3px #070505;
+  opacity: 0.6;
+  transition: all 0.5s ease;
+}
+
+#titlePortfolio.hovered{
+    opacity: 1;
+    letter-spacing: 6px;
+    margin-left: -6px;
+    font-size: 3rem;
+    transition: all .3s ease-in-out;
+}
+
+#titleContact.hovered{
+    opacity: 1;
+    letter-spacing: 3px;
+    margin-left: -3px;
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+
+#titleAbout.hovered{
+    opacity: 1;
+    letter-spacing: 4px;
+    margin-left: -4px;
+    font-size: 1.6rem;
+    transition: all .3s ease-in-out;
+}
+
+#sunButton.hovered{
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+// Mode Petit écran
+@media only screen and (max-width: 1440px) {
+
+  #mContact{
+    position: absolute;
+    right: 20%;
+    top: 28%;
+  }
+
+  #ePortfolio{
+    position: absolute;
+    right: 50%;
+    top: 30%;
+  }
+}
+
+// Mode Petit écran
+@media only screen and (max-width: 1024px) {
+
+  #mContact{
+    position: absolute;
+    right: 20%;
+    top: 28%;
+  }
+
+  #titleContact{
+    font-size: 1.4rem;
+    opacity: 1;
+    padding-left: 5px;
+  }
+
+  #ePortfolio{
+    position: absolute;
+    right: 75%;
+    top: 30%;
+  }
+
+  #titlePortfolio{
+    font-size: 3rem;
+    opacity: 1;
+  }
+
+  #vAbout{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+  }
+
+  #titleAbout{
+    font-size: 1.5rem;
+    opacity: 1;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+  #venus{
+    position: absolute;
+    width: 120px;
+    z-index: 30;
+  }
+
+  #sunButton{
+    position: absolute;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    z-index: 3;
+  }
+
+  #sun{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    z-index: 29;
+  }
+    
+}
+
+// Mode téléphone
+@media only screen and (max-width: 600px) {
+
+  #ePortfolio{
+    position: absolute;
+    right: 95%;
+    top: 35%;
+  }
+
+  #titlePortfolio{
+    font-size: 2rem;
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 80px;
+  }
+
+  #earth{
+    position: absolute;
+    width: 240px;
+    z-index: 31;
+  }
+
+  #vAbout{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+  }
+
+  #titleAbout{
+    font-size: 1rem;
+    opacity: 1;
+    padding-left: 5px;
+    padding-top: 25px;
+  }
+
+  #venus{
+    position: absolute;
+    width: 80px;
+    z-index: 30;
+  }
+  
+  #mContact{
+    position: absolute;
+    right: 30%;
+    top: 28%;
+  }
+
+  #titleContact{
+    font-size: 1rem;
+    opacity: 1;
+    padding-left: 5px;
+    padding-top: 35px;
+    text-shadow: 2px 1px #070505;
+  }
+
+  #moon{
+    position: absolute;
+    width: 100px;
+    z-index: 32;
+  }
+
+  #sunButton{
+    animation-delay: 2s;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 6px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    z-index: 3;
+  }
+
+  #sun{
+    position: absolute;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+    z-index: 29;
+  }
+
+}

@@ -1,0 +1,67 @@
+.dotsIndic {
+
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 45%;
+  left: -2%;
+  z-index: 10000;
+  
+  .dots-wrapper {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .95;
+      z-index: 2;
+  }
+  
+  .dots-list {
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 2px white;
+  }
+  
+  .dot-1 {
+    
+  }
+  
+  .dot-2 {
+    margin: 15px 0;
+  
+  }
+  
+  .dot-3 {
+    margin: 15px 0;
+  }
+
+  .dot-4 {
+  
+  }
+  
+  .dots-active {
+    background-color: white; 
+  }
+  
+  @keyframes bounce {
+    0% {transform: translatex(-5px)
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+      display: none;
+  }
+}

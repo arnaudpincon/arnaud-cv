@@ -1,0 +1,51 @@
+.navigation {
+
+  height: 40px;
+  display: flex;
+
+  .navbar-main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 500px; 
+  }
+
+  li {
+    line-height: 35px;
+  }
+
+  a { 
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 2px;
+  }
+
+  .nav-main-onglet{
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 2px;
+  
+    &:hover {
+      background-color: blue;
+    }
+  
+  }
+
+  .nav-onglets {
+    display: none;
+  }
+
+  .nav-active {
+    background-color: #f7f7f7;
+    color: black;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}

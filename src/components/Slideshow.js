@@ -49,7 +49,7 @@ const Slideshow = () => {
                 <div className="titleList"> My duties involved : </div>
                 <ul className="listPortFolio">
                   <li>AFPA website maintenance;</li>
-                  <li>Developping new applications, components and functionalities for the AFPA website;</li>
+                  <li>Developping new applications, components and functionalities;</li>
                   <li>Improving site performance;</li>
                   <li>Creating front-end and back-end solution proposals;</li>
                   <li>Using Agile work method (Sprint);</li>
@@ -57,7 +57,7 @@ const Slideshow = () => {
                   <li>Attending face-to-face meetings with clients;</li>
                   <li>Analyzing data, performance compatibility and undertaking quality assurance tests and</li>
                   <li>Researching alternative configurations</li>
-                  <li>implementing better solutions for the website AFPA</li>
+                  <li>implementing better solutions</li>
                 </ul>
               </div>
             </div>

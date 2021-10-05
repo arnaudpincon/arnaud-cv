@@ -44,7 +44,7 @@ const SlideshowAbout = () => {
           <div className="each-slide">
             <div className="inside-slide">
                 <div className="flexTestRow"> I am a 28 year old French national, with over two years of industry experience, living in Sydney Australia. I have worked on a variety of IT projects involving website development and maintenance, game design and UX design. </div>    
-                <div className="flexTestRow"> My studies and my previous professional experiences have influenced my software design method, which is centred upon maximising user experience. I am open to any type of innovative project, website creation, artistic project, video game etc. </div>    
+                <div className="flexTestRow"> My studies and my previous professional experiences have influenced my software design method, which is centred upon maximising user experience. I am open to any type of innovative project, website creation, artistic project or video game. </div>    
             </div>
           </div>
           <div className="each-slide">

@@ -279,13 +279,17 @@
     // Mode Téléphone
     @media only screen and (max-width: 600px)  {
 
+        #earthBackground{
+            height: 110%;
+        }
+
         .slide-container{
             position: absolute;
             z-index: 100;
             left: 2.5%;
             top: 15%;
             width: 95%;
-            height: 80%;
+            height: 77%;
         }
 
         #lampLOff{
@@ -313,21 +317,11 @@
         }
 
         #cloud1{
-            position: absolute;
-            width: 40px;
-            top: 120px;
-            right: 250px;
-            opacity: 1;
-            z-index: 20;
+            display: none;
         }
     
         #cloud2{
-            position: absolute;
-            width: 30px;
-            top: 140px;
-            right: 270px;
-            opacity: 1;
-            z-index: 21;
+            display: none;
         }
     
         #cloud3{
@@ -335,27 +329,17 @@
         }
     
         #cloud4{
-            position: absolute;
-            width: 40px;
-            top: 120px;
-            left: 300px;
-            opacity: 1;
-            z-index: 21;
+            display: none;
         }
     
         #cloud5{
-            position: absolute;
-            width: 40px;
-            top: 110px;
-            left: 250px;
-            opacity: 1;
-            z-index: 20;
+            display: none;
         }
 
         #maisons{
             position: absolute;
             width: 50px;
-            bottom: 15.2%;
+            bottom: 6.5%;
             right: 14%;
             opacity: 1;
             z-index: 20;
@@ -364,7 +348,7 @@
         #banc{
             position: absolute;
             width: 50px;
-            bottom: 13.5%;
+            bottom: 4%;
             left: 42%;
             opacity: 1;
             z-index: 20;

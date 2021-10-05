@@ -40,7 +40,7 @@ const Slideshow = () => {
         <Slide duration="100000">
           <div className="each-slide">
             <div className="inside-slide">
-              <div className="flexTitle"> Design and development engineer : Sopra Steria | 2018-2020 | Strasbourg FRANCE</div>
+              <div className="flexTitle"> Design & development engineer : Sopra Steria | 2018-2020 | Strasbourg FRANCE</div>
               <div className="flexTestRow">
                   <img id="project1" src={slideImages[0]}/>
                   <div className="flexTestCornerRight"> This position primarily involved working with other developers using the Agile method (Sprint) to build technical solutions and maintain the website of the French National Agency for the Professional Training of Adults (AFPA). It also required gathering first-hand information from clients and communicating website requirements, demonstrating new features, and training customers. </div>
@@ -73,7 +73,7 @@ const Slideshow = () => {
                   <div class="titleList"> My duties involved : </div>
                   <ul class="listPortFolio">
                     <li>Creating an ergonomic gaming interface;</li>
-                    <li>Determining game parameters (specifically, level difficulty and over all playability);;</li>
+                    <li>Determining game parameters (specifically, level difficulty and over all playability);</li>
                     <li>Establishing a rewards system for players;</li>
                     <li>Helping to film and direct live actors for video scenes (onlocation);</li>
                     <li>Presenting and marketing Offi'Sim at public events and</li>

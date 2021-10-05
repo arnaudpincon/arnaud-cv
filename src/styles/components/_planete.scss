@@ -238,6 +238,18 @@
 // Mode téléphone
 @media only screen and (max-width: 600px) {
 
+  #moonBackground{
+    width: 200%;
+    left: -50%;
+  }
+
+  #venusBackground{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    z-index: 20;
+  }
+
   #ePortfolio{
     position: absolute;
     right: 95%;

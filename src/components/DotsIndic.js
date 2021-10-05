@@ -12,25 +12,25 @@ const DotsIndic = () => {
         var dot4 = document.querySelector('.dot-4');
         const url = window.location.pathname;
 
-        if (url === '/') {
+        if (url === '/arnaud-cv/') {
             dot1.classList.add('dots-active');
         } else {
             dot1.classList.remove('dots-active');
         }
         
-        if (url === '/portfolio') {
+        if (url === '/arnaud-cv/portfolio') {
             dot2.classList.add('dots-active');
         } else {
             dot2.classList.remove('dots-active');
         }
         
-        if (url === '/about') {
+        if (url === '/arnaud-cv/about') {
             dot3.classList.add('dots-active');
         } else {
             dot3.classList.remove('dots-active');
         }
 
-        if (url === '/contact') {
+        if (url === '/arnaud-cv/contact') {
             dot4.classList.add('dots-active');
         } else {
             dot4.classList.remove('dots-active');
@@ -99,16 +99,16 @@ const DotsIndic = () => {
     return (
         <div className="dotsIndic">
             <ul className="dots-list">
-                <NavLink to="/" exact className="hover" activeClassName="nav-active" >
+                <NavLink to="/arnaud-cv/" exact className="hover" activeClassName="nav-active" >
                     <motion.li className="dot dot-1 dot-ring" initial="initial" animate="visible" exit="exit" variants={transHome}></motion.li>
                 </NavLink>
-                <NavLink to="/portfolio" exact className="hover" activeClassName="nav-active" >
+                <NavLink to="/arnaud-cv/portfolio" exact className="hover" activeClassName="nav-active" >
                     <motion.li className="dot dot-2 dot-ring" initial="initial" animate="visible" exit="exit" variants={transPortfolio}></motion.li>
                 </NavLink>
-                <NavLink to="/about" exact className="hover" activeClassName="nav-active" >
+                <NavLink to="/arnaud-cv/about" exact className="hover" activeClassName="nav-active" >
                     <motion.li className="dot dot-3 dot-ring" initial="initial" animate="visible" exit="exit" variants={transAbout}></motion.li>
                 </NavLink>
-                <NavLink to="/contact" exact className="hover" activeClassName="nav-active" >
+                <NavLink to="/arnaud-cv/contact" exact className="hover" activeClassName="nav-active" >
                     <motion.li className="dot dot-4 dot-ring" initial="initial" animate="visible" exit="exit" variants={transContact}></motion.li>
                 </NavLink>
             </ul> 

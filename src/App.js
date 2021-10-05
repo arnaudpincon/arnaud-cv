@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     const handleScrollToElement = (e) => {
-      const url = window.location.origin + '/';
+      const url = window.location.origin + '/arnaud-cv/';
 
       const wheelRouter = (after, before) => {
         if (e.wheelDeltaY < 0) {
@@ -66,12 +66,12 @@ const App = () => {
 
     <AnimatePresence exitBeforeEnter>
       <Switch location={location} key={location.pathname}>
-        <Route exact path="/arnaud-cv" component={Home} />
+        <Route exact path="/arnaud-cv/" component={Home} />
         <Route exact path="/arnaud-cv/portfolio" component={Portfolio} />
         <Route exact path="/arnaud-cv/about" component={About} />
         <Route exact path="/arnaud-cv/aboutDetails" component={AboutDetails} />
         <Route exact path="/arnaud-cv/contact" component={Contact} />
-        <Redirect to="/arnaud-cv" />
+        <Redirect to="/arnaud-cv/" />
       </Switch>
     </AnimatePresence>
   );

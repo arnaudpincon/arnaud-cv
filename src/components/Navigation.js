@@ -7,10 +7,10 @@ const Navigation = () => {
         <div className="navigation">
             {/* <div> Arnaud Pinçon </div> */}
             <ul className="navbar-main">
-                <NavLink to="/" exact className="hover" activeClassName="nav-active">
+                <NavLink to="/arnaud-cv/" exact className="hover" activeClassName="nav-active">
                     <li>Home</li>
                 </NavLink>
-                <NavLink to="/portfolio" exact className="hover" activeClassName="nav-active">
+                <NavLink to="/arnaud-cv/portfolio" exact className="hover" activeClassName="nav-active">
                     <li>Portfolio</li>
                 </NavLink>
                 
@@ -26,10 +26,10 @@ const Navigation = () => {
                         <li>Onglet 3</li>
                     </NavLink>
                 </ul> */}
-                <NavLink to="/about" exact className="hover" activeClassName="nav-active">
+                <NavLink to="/arnaud-cv/about" exact className="hover" activeClassName="nav-active">
                     <li>About</li>
                 </NavLink>
-                <NavLink to="/contact" exact className="hover" activeClassName="nav-active">
+                <NavLink to="/arnaud-cv/contact" exact className="hover" activeClassName="nav-active">
                     <li>Contact</li>
                 </NavLink>
             </ul>

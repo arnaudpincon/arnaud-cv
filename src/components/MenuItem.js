@@ -22,7 +22,7 @@ const variants = {
 };
 
 const sommaire = ["Home", "Portfolio", "About", "Contact"];
-const adresses = ["/", "/portfolio", "/about", "/contact"]
+const adresses = ["/arnaud-cv/", "/arnaud-cv/portfolio", "/arnaud-cv/about", "/arnaud-cv/contact"]
 
 const colors = ["#724aee", "#285fac", "#d56335", "#ffffff"];
 

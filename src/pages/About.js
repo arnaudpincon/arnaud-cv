@@ -57,19 +57,18 @@ const About = () => {
     const aboutCadre = { //Pour la lune
         initial: {
             opacity: 0,
-            x: 0,
+            x: "-50%",
             y: -500,
         },
         visible: {
             opacity: 1,
             transition: { duration: 3, type: "spring", bounce: 0.3},
-            x: 0,
+            x: "-50%",
             y: 100,
         },
         exit: {
           opacity: 0,
           transition: { duration: 1, bounce: 0.3},
-          x: 0,
           y: -500,
         }
     }

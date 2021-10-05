@@ -113,15 +113,179 @@
         opacity: 1;
         z-index: 20;
     }
+    
+    // Mode Petit écran
+    @media only screen and (max-width: 1440px) {
 
-    @media only screen and (max-width: 600px) {
+        #lampROff{
+            bottom: 50px;
+            right: 50px;
+        }
 
+        #lampROn{
+            bottom: 50px;
+            right: 50px;
+        }
+
+        #lampLOff{
+            bottom: 40px;
+            left: 50px;
+        }
+
+        #lampLOn{
+            bottom: 40px;
+            left: 50px;
+        }
+
+        #cloud4{
+            position: absolute;
+            width: 100px;
+            top: 170px;
+            left: 150px;
+            opacity: 1;
+            z-index: 21;
+        }
+
+        #cloud5{
+            position: absolute;
+            width: 100px;
+            top: 150px;
+            left: 100px;
+            opacity: 1;
+            z-index: 20;
+        }
+    }
+
+    /// Mode 800 pixel de hauteur
+    @media only screen and (max-width: 1440px) and (max-height: 800px) {
         .slide-container{
             position: absolute;
             z-index: 100;
             left: 10%;
-            top: 30%;
+            top: 8%;
             width: 80%;
+        }
+
+        #earthBackground{
+            height: 105%;
+        }
+
+        #banc{
+            width: 150px;
+            bottom: 8%;
+        }
+    
+        #maisons{
+            width: 180px;
+            bottom: 10%;
+        }
+
+        #lampROff{
+            top: 68%;
+            right: 40px;
+            width: 100px;
+            height: 250px;
+        }
+
+        #lampROn{
+            top: 68%;
+            right: 40px;
+            width: 100px;
+            height: 250px;
+        }
+
+        #lampLOff{
+            top: 68%;
+            left: 2%;
+            width: 100px;
+            height: 250px;
+        }
+
+        #lampLOn{
+            top: 68%;
+            left: 2%;
+            width: 100px;
+            height: 250px;
+        }
+
+        #cloud1{
+            top: 25px;
+            right: 50px;
+        }
+    
+        #cloud2{
+            top: 65px;
+            right: 100px;
+        }
+    
+        #cloud3{
+            top: 60px;
+            right: 50px;
+        }
+    
+
+    }
+
+        
+    // TV HD 720P de hauteur
+    @media only screen and (max-width: 1440px) and (max-height: 720px) {
+        .slide-container{
+            top: 4%;
+            width: 80%;
+        }
+
+        #banc{
+            width: 130px;
+            bottom: 8%;
+        }
+
+        #lampROff{
+            top: 66%;
+        }
+
+        #lampROn{
+            top: 66%;
+        }
+
+        #lampLOff{
+            top: 66%;
+        }
+
+        #lampLOn{
+            top: 66%;
+        }
+
+        #cloud1{
+            width: 90px;
+        }
+
+        #cloud2{
+            width: 70px;
+        }
+
+        #cloud3{
+            width: 30px;
+        }
+
+        #cloud4{
+            width: 70px;
+        }
+
+        #cloud5{
+            width: 70px;
+        }
+    }
+
+    // Mode Téléphone
+    @media only screen and (max-width: 600px)  {
+
+        .slide-container{
+            position: absolute;
+            z-index: 100;
+            left: 2.5%;
+            top: 15%;
+            width: 95%;
+            height: 80%;
         }
 
         #lampLOff{

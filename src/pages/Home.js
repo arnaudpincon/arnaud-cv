@@ -181,7 +181,7 @@ const Home = () => {
                     <h2> Web Developer & Designer </h2>
                 </motion.div>
 
-                <NavLink to="/portfolio" exact className="hover" activeClassName="nav-active" >
+                <NavLink to="/arnaud-cv/portfolio" exact className="hover" activeClassName="nav-active" >
                     <motion.figure id="ePortfolio" className="planete" initial="initial" animate="visible" exit="exit" variants={earthTrans}   
                        /*  whileHover={
                             {
@@ -202,7 +202,7 @@ const Home = () => {
                     </motion.figure>
                 </NavLink>
 
-                <NavLink to="/contact" exact className="hover" activeClassName="nav-active">
+                <NavLink to="/arnaud-cv/contact" exact className="hover" activeClassName="nav-active">
                     <motion.figure id="mContact" className="planete"  initial="initial" animate="visible" exit="exit" variants={moonTrans}
                         /* whileHover={
                             {
@@ -222,7 +222,7 @@ const Home = () => {
                     </motion.figure>
                 </NavLink>
 
-                <NavLink to="/about" exact className="hover" activeClassName="nav-active">
+                <NavLink to="/arnaud-cv/about" exact className="hover" activeClassName="nav-active">
                     <motion.figure id="vAbout" className="planete" initial="initial" animate="visible" exit="exit" variants={venusTrans}
                         /* whileHover={
                             {

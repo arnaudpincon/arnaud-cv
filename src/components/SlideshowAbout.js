@@ -17,7 +17,7 @@ const slideImages = [
     m3
 ];
 
-const diapo = { //Pour la lune
+const diapo = {
   initial: {
       opacity: 0,
       x: 0,

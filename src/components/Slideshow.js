@@ -42,8 +42,7 @@ const Slideshow = () => {
             <div className="inside-slide">
               <div className="flexTitle"> Design & development engineer : Sopra Steria | 2018-2020 | Strasbourg FRANCE</div>
               <div className="flexTestRow">
-                  <img id="project1" src={slideImages[0]}/>
-                  <div className="flexTestCornerRight"> This position primarily involved working with other developers using the Agile method (Sprint) to build technical solutions and maintain the website of the French National Agency for the Professional Training of Adults (AFPA). It also required gathering first-hand information from clients and communicating website requirements, demonstrating new features, and training customers. </div>
+                  <div className="flexTestCornerRight"> <img id="project1" src={slideImages[0]}/> This position primarily involved working with other developers using the Agile method (Sprint) to build technical solutions and maintain the website of the French National Agency for the Professional Training of Adults (AFPA). It also required gathering first-hand information from clients and communicating website requirements, demonstrating new features, and training customers. </div>
               </div>
               <div className="flexTestColumn">
                 <div className="titleList"> My duties involved : </div>
@@ -66,8 +65,7 @@ const Slideshow = () => {
             <div className="inside-slide">
                 <div className="flexTitle"> UX & GameDesigner : University of Lorraine | 2016-2017| Nancy FRANCE</div>
                 <div className="flexTestRow">
-                    <img id="project1" src={slideImages[1]}/>
-                    <div className="flexTestCornerRight"> This role centred upon the design and development of the serious game "Mission Offi'sim", which is a training application for pharmacology students. The game simulates real-world scenarios patients, who come into the pharmacy for advice or over-the-counter medication. "Mission Offi'Sim" won the Grand Prizeat the 2018 MEDEA Awards, which encourages innovation and best practices in the use of media in education (for audio, video,graphics and animation). </div>
+                    <div className="flexTestCornerRight"> <img id="project1" src={slideImages[1]}/> This role centred upon the design and development of the serious game "Mission Offi'sim", which is a training application for pharmacology students. The game simulates real-world scenarios patients, who come into the pharmacy for advice or over-the-counter medication. "Mission Offi'Sim" won the Grand Prizeat the 2018 MEDEA Awards, which encourages innovation and best practices in the use of media in education (for audio, video,graphics and animation). </div>
                 </div>
                 <div className="flexTestColumn">
                   <div class="titleList"> My duties involved : </div>

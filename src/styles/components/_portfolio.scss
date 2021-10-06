@@ -276,6 +276,62 @@
         }
     }
 
+    // Mode tablette
+    @media only screen and (max-width: 1024px) and (max-height: 1366px) {
+        #lampLOff{
+            left: 0%;
+            top: 72%;
+        }
+
+        #lampLOn{
+            left: 0%;
+            top: 72%;
+        }
+
+        #lampROff{
+            right: 0%;
+            top: 72%;
+        }
+
+        #lampROn{
+            right: 0%;
+            top: 72%;
+        }
+
+        #banc{
+            bottom: 7%;
+            left: 40%;
+        }
+
+        #maisons{
+            bottom: 10%;
+            width: 150px;
+        }
+
+        #cloud1{
+            right: 40px;
+        }
+    
+        #cloud2{
+            right: 100px;
+        }
+    
+        #cloud3{
+            right: 50px;
+        }
+    
+
+        #cloud4{
+            top: 50px;
+            left: 200px;
+        }
+    
+        #cloud5{
+            top: 70px;
+            left: 240px;
+        }
+    }
+
     // Mode Téléphone
     @media only screen and (max-width: 600px)  {
 

@@ -61,6 +61,11 @@
     }
   }
 
+  // Mode tablette
+  @media only screen and (max-width: 1024px) and (max-height: 1366px) {
+    left: -6%;
+  }
+
   @media only screen and (max-width: 600px) {
       display: none;
   }
